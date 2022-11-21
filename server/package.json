@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "packageManager": "yarn@3.2.4",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "devDependencies": {
     "@mermaid-js/mermaid-cli": "^9.1.7",
     "@typescript-eslint/eslint-plugin": "latest",
@@ -23,6 +26,8 @@
   "dependencies": {
     "@fastify/cors": "^8.1.1",
     "@prisma/client": "^4.5.0",
-    "fastify": "^4.9.2"
+    "fastify": "^4.9.2",
+    "short-unique-id": "^4.4.4",
+    "zod": "^3.19.1"
   }
 }
